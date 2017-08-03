@@ -1,4 +1,4 @@
-function isPrime(n){
+module.exports.isPrime = function(n){
 	if (n == 1) {
 		return false;
 	} else if (n == 2) {
@@ -11,4 +11,4 @@ function isPrime(n){
 		}
 		return true;
 	}
-}
+};
