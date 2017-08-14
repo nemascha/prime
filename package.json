@@ -18,7 +18,8 @@
   },
   "devDependencies": {
     "jasmine-core": "^2.7.0",
-    "mocha": "^3.5.0"
+    "mocha": "^3.5.0",
+    "webpack": "^3.5.4"
   },
   "scripts": {
     "test": "mocha",
