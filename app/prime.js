@@ -4,7 +4,8 @@ module.exports.isPrime = function(n){
 	} else if (n == 2) {
 		return true;
 	} else {
-		for (var i = 2; i < n; i++) {
+		var k = Math.ceil(Math.sqrt(n));
+		for (var i = 3; i < k; i+=2) {
 			if (n % i == 0){
 				return false;
 			}
@@ -12,3 +13,4 @@ module.exports.isPrime = function(n){
 		return true;
 	}
 };
+
